@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;300;500;800&family=Poppins:wght@100;300;500;700&family=Roboto+Condensed:ital,wght@0,300;0,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100&family=Source+Code+Pro:wght@200;400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;300;500;800&family=Poppins:wght@100;300;500;700&family=Roboto+Condensed:ital,wght@0,300;0,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100&display=swap');
 
 *{
     margin: 0;
@@ -39,8 +38,8 @@
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
-    font-size: 22px;
-
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
   nav ul li a{
@@ -111,7 +110,7 @@
     background: #2c016d;
     color: #27B0FF;
     left: 35px;
-    top: 410px;
+    top: 401px;
     font-size: 21px;
   }
   
@@ -142,13 +141,17 @@
     text-align: center;
     background-color: rgb(155, 206, 252);
     font-size: 40px;
+    border-radius: 8px;
+    box-shadow: 2px 5px 2px #2c016d;
+    margin: 25px 500px;
   
   }
   .services-list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     grid-gap: 40px;
-    margin-top: 50px;
+    margin-top: 100px;
+    margin-bottom: 80px;
   }
   .services-list div{
     background: whitesmoke;
@@ -193,7 +196,7 @@
 }
 
   .subtitle{
-    margin-bottom: 10px;
+    margin-bottom: 100px;
     margin-top: 0px;
   }
   
@@ -273,6 +276,29 @@
     text-decoration: none;
     left: 35px;
     margin-top: 8px;
+    cursor: pointer;
+  }
+
+  #calendario{
+    background-color: #145981;
+  }
+
+  .calendar{
+    font-size: 20px;
+    color: #2c016d;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 620px;
+  }
+
+  .horarios{
+    background-color: #e0e9f0;
+    margin: 0px 470px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2c016d;
+    box-shadow: 2px 5px 2px #2c016d;
   }
   /*   
   -----------------aboutMe-------------------- */
