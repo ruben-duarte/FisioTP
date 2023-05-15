@@ -24,7 +24,7 @@
                           <li class="nav-item"><a href="#about" class="nav-link">LaFisiotp</a></li>
                           <li class="nav-item"><a href="#rates" class="nav-link">Tarifas</a></li>
                           <li class="nav-item"><a href="#contact" class="nav-link">Contáctanos</a></li>
-                          <li class="nav-item"><a href="#" class="nav-link">Iniciar sesión</a></li>
+
                       </ul>
               </nav>
           </div>
@@ -103,36 +103,26 @@
   
       <!-- -----------Citas---------- -->
       <section class="dates" id="dates">
-          <h1 class="subtitle">Agendar citas  <span><p class="aviso">proximamente en funcionamiento</p></span></h1>
+          <h1 class="subtitle">Citas </h1>
           <div class="booking">
               <form class="content-left">
                       <input type="text" id="name" name="name" class="item" placeholder="Nombre completo"><br>
-                      <input type="text" id="cedula" name="cedula" class="item" placeholder="cedula"><br> 
+                      <input type="text" id="email" name="email" class="item" placeholder="email"><br> 
                       <!-- <input type="date" id="cita" name="cita" class="item2"><br> -->
                       
                </form action ="">
-               <!-- <div class="content-right">
-                  <div class="btn1">8:00  am</div>
-                  <div class="btn1">9:00   am</div>
-                  <div class="btn1">10:00 am</div>
-                  <div class="btn1">11:00 am</div>
-                  <div class="btn1">2:00   pm</div>
-                  <div class="btn1">3:00   pm</div>
-                  <div class="btn1">4:00   pm</div>
-                  <div class="btn1">5:00   pm</div>
-               </div> -->
+             
                <label for="calendario">
                     <span class="calendar">Calendario</span>
                     <input type="datetime-local" id="calendario" name="calendario" class="btn2">   
                </label> 
-
+               <input type="submit" class="btn2">
                <div class="horarios">
                 <p>Horarios</p>
                 <p>8:00  am  9:00  am  10:00  am   11:00  am</p> 
                 <p>2:00   pm  3:00   pm  4:00   pm  5:00 pm
                 </p>
                </div>
-               <input type="submit" class="btn2">
               
           </div>  
       </section>
@@ -154,15 +144,18 @@
       <section class="rates" id="rates">
           <h1 class="subtitle">Tarifa</h1>
           <div class="rates-container">
-              <h1>Valoración y primera terapia</h1><br/>
-              <p>$80.000</p>
-              <p>Duración: 1 hora y 20 minutos</p> <br/>
-              <h1>Terapias de relajación</h1><br/>
-              <p>2 horas $120,000 COP</p> 
-              <p>1 hora 30 min  $100,000 COP</p>
-              <p>1 hora $80,000 COP</p>
-  
+            <h1>Valoración y primera terapia</h1><br/>
+            <p>$80.000</p>
+            <p>Duración: 1 hora y 20 minutos</p> <br/>
+            <h1>Terapias de relajación</h1><br/>
+            <p>2 horas $120,000 COP</p> 
+            <p>1 hora 30 min  $100,000 COP</p>
+            <p>1 hora $80,000 COP</p>
           </div>
+         
+
+  
+       
       </section>
   
       <!-- -----------IniciarSesion---------- -->
@@ -170,36 +163,36 @@
       </section>
   
       <!-- -----------Contáctanos---------- -->
+      <div class="contac-us">
+        <section class="contact" id="contact">
+            <div class="contact-content">
+                <div class="row">
+                  <h1 class="subtitle">Contacto</h1>
+                    <div class="contact-left">
+                        
+                        <p>&#128140; ivonneherrera007@hotmail.com</p>
+                        <p> &#128222; Whatsapp 3128685538</p>
+
+                    </div>
+                    <div class="contact-right">
+                        <form action="mailto:ivonneherrera007@hotmail.com" method="post" enctype="text/plain" name='submit-data'>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn2">Enviar</button>
+                        <button type="reset" class="btn2">Reset</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+        </div>
+    </section>
+      </div>
+
       <footer>
-          <section class="contact" id="contact">
-              <div class="contact-content">
-                  <div class="row">
-                    <h1 class="subtitle">Contacto</h1>
-                      <div class="contact-left">
-                          
-                          <p>&#128140; ivonneherrera007@hotmail.com</p>
-                          <p> &#128222; Whatsapp 3128685538</p>
-  
-  
-                      <div class="contact-right">
-                          <form action="mailto:ivonneherrera007@hotmail.com" method="post" enctype="text/plain" name='submit-data'>
-                          <input type="text" name="Name" placeholder="Your Name" required>
-                          <input type="email" name="Email" placeholder="Your Email" required>
-                          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                          <button type="submit" class="btn2">Enviar</button>
-                          <button type="reset" class="btn2">Reset</button>
-                          </form>
-                          <span id="msg"></span>
-                      </div>
-                      </div>
-                  </div>
-          </div>
-          <div class="copyright">
-                      <p>&#127758; Copyright &copy;  @LaFisioTP</p>
-           </div>
-  
-      </section>
-        
+            <div class="copyright">
+                <p>&#127758; Copyright &copy;  @LaFisioTP</p>
+            </div>
       </footer>
     
 </body>
