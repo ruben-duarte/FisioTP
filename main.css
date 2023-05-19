@@ -137,9 +137,9 @@
     background: linear-gradient(45deg, rgb(105,152,194),#64dfdf, #48bfe3, #5390d9);
   }
   .subtitle{
-    color: #2c016d;
+    color: white;
     text-align: center;
-    background-color: rgb(155, 206, 252);
+    background: linear-gradient(45deg,#27B0FF, #7149C6);
     font-size: 40px;
     border-radius: 8px;
     box-shadow: 2px 5px 2px #2c016d;
@@ -341,7 +341,7 @@
     display: block;
     width: 150px;
     height: 170px;
-    border: 4px solid #fff;
+    border: 2px solid #fff;
     margin-right: 40px;
   
   }
@@ -360,10 +360,19 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    background: #e0edf0;
+    padding: 20px;
+    border-radius: 8px;
   }
   .about-content h2,h1,h3,p{
     color: #27B0FF;
     text-align: center;
+  }
+
+  .about-content .fisio h1,h3,p {
+    font-size: 22px;
+    color: #2c016d;
+
   }
   
   /* -----------------tarifas-------------- */
@@ -431,34 +440,10 @@
     margin-top: 10px;
     font-size:20px ;
     color: #2c016d;
-    background-color: rgb(207, 212, 218);
-    margin-right: 80px;
-  }
-  /* .contact-left{
-    display: flex;
-    
+    margin-right : 80px;
   }
 
-  .contact-left p{
-    margin-top: 30px;
-    font-size:20px ;
-    color: #2c016d;
-    background-color: rgb(155, 206, 252);
-    margin-left: 20px;
-  }
 
-  .contact-right{
-    width: 400px;
-    margin-left: 120px;
-    height: 360px;
-  }
-   */
-  
-  
-/*   
-  .contact-right form{
-    width: 100%;
-  } */
   
   .contact-right form button{
         display: inline;
@@ -477,6 +462,11 @@
     font-size: 18px;
     border-radius: 6px;
   }
+
+footer h4{
+  color: #27B0FF;
+}
+
   .copyright {
     width: 100%;
     text-align: center;
