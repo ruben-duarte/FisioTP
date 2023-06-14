@@ -478,8 +478,55 @@ footer h4{
   
   
   @media only screen and (max-width: 768px) { 
+
+    body { 
+      overflow-x: hidden;
+    }  
+
+
     .logo {
       width:85px;
+    }
+
+
+    nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    nav ul li{
+      display: inline-block;
+      list-style: none;
+      margin: 10px 20px;
+      font-size: 16px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    nav ul li a{
+      text-decoration: none;
+      position: relative;
+      background-color: #c0eaf3;
+     
+    }
+    
+    nav ul li a::after{
+      content: ' ';
+      width: 0;
+      height: 3px;
+      background: #27B0FF;
+      position: absolute;
+      left:0;
+      bottom: -6px;
+      transition: 0.5s;
+    }
+    nav ul li a:hover::after{
+      width: 100%;
+    
+    
+    }
+    .nav-link:hover{
+      color: #27B0FF;
     }
 
     nav ul li{
