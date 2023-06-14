@@ -608,7 +608,12 @@ footer h4{
      .about-content .fisio h1,h3,p {
       font-size: 18px;
       color: #2c016d;
-  
+
+    }
+
+    .about-img:hover{
+      transform: scale(0.98);
+      width: 142px;
     }
 
       /* -----------------tarifas-------------- */
@@ -621,7 +626,7 @@ footer h4{
         align-content: center;
         align-items: center;
         width: 70%;
-        height: 50%;
+        height: 40%;
         background-color: #2c016d;
         margin-top: 10px;
         align-items: center;
@@ -629,7 +634,7 @@ footer h4{
         align-self: center;
         border-radius: 8px;
         margin-left: 40px;
-        font-size: 25px;
+        font-size: 16px;
         padding: 10px;
      
       }
@@ -639,12 +644,12 @@ footer h4{
 
 
   .contact-content{
-      display: flex;
+   display: block;
+    margin-left: 0px;
   }
   
   .row{
     margin-top: 0px;
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -652,18 +657,20 @@ footer h4{
   }
   
   .contact-left{
-    flex-basis: 70%;
+    flex-basis:0%;
+
     
   }
   .contact-right{
-    flex-basis: 70%;
+    flex-basis:0%;
+  
   }
 
   .contact-left p{
     margin-top: 10px;
     font-size:14px ;
     color: #2c016d;
-    margin-right : 40px;
+    margin-left : 20px;
   }
 
 
@@ -671,18 +678,18 @@ footer h4{
   .contact-right form button{
         display: inline;
         align-items: center;
-        bottom: -30px;
+        bottom: 10px;
   }
   
   form input, form textarea{
-    width: 100%;
+    width: 280px;
     border: 0;
     outline: none;
     background: #2c016d;
     padding: 10px;
     margin: 10px 0;
     color: #fff;
-    font-size: 18px;
+    font-size: 14px;
     border-radius: 6px;
   }
 
